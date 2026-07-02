@@ -18,6 +18,8 @@ export const logData = async (req, res) => {
         packageName,
         message
     );
+    console.log(response);
+    
 
     res.status(200).json(response);
 
